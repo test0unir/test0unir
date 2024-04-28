@@ -1,8 +1,8 @@
-def fibonacci(n):
-    if n <= 1:
-        return n
+def fibonacci(numero):
+    if numero <= 1:
+        return numero
     else:
-        return fibonacci(n-1) + fibonacci(n-2)
+        return fibonacci(numero-1) + fibonacci(numero-2)
 
 for i in range(10):
     print(fibonacci(i), end=" ")
