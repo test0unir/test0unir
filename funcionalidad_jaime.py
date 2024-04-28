@@ -1,8 +1,8 @@
 def es_palindromo(palabra):
     return palabra == palabra[::-1]
 
-texto = "anita lava la tina"
+texto = "Cambio de frase para commit practica unir"
 if es_palindromo(texto.replace(" ", "").lower()):
-    print("Es un palíndromo.")
+    print("Cambios propuestos.")
 else:
-    print("No es un palíndromo.")
+    print("Modificacion Texto.")
